@@ -67,23 +67,23 @@ The analysis revealed
 Three models were selected and trained on the dataset to compare their performance:
 
 #### 1. **Linear Regression**
-   - **R-squared (Training)**: 0.639
-   - **R-squared (Testing)**: 0.616
-   - **Root Mean Squared Error (RMSE)**: 70,967
+   - **R-squared (Training)**: 0.6385162813826918
+   - **R-squared (Testing)**: 0.615668886836324
+   - **Root Mean Squared Error (RMSE)**: 70966.96001006386
 
    *Key Insight*: Linear Regression provided a baseline model with a moderate fit, but the prediction accuracy could be improved.
 
 #### 2. **Decision Tree Regression**
    - **R-squared (Training)**: 1.0 (overfitting)
-   - **R-squared (Testing)**: 0.538
-   - **Root Mean Squared Error (RMSE)**: 77,843
+   - **R-squared (Testing)**: 0.5375808148340875
+   - **Root Mean Squared Error (RMSE)**: 77843.3203269396
 
    *Key Insight*: The Decision Tree model showed signs of overfitting, performing well on the training data but poorly on the testing data.
 
 #### 3. **Random Forest Regression**
-   - **R-squared (Training)**: 0.955
-   - **R-squared (Testing)**: 0.738
-   - **Root Mean Squared Error (RMSE)**: 58,541
+   - **R-squared (Training)**: 0.9551782261502803
+   - **R-squared (Testing)**: 0.7384746008843336
+   - **Root Mean Squared Error (RMSE)**: 58541.03099871098
 
    *Key Insight*: Random Forest outperformed the other models, providing a better fit to the data with the lowest RMSE, making it the preferred model for this dataset.
 
