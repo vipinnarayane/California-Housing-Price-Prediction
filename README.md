@@ -60,9 +60,8 @@ The analysis revealed
 4.	on the basis of above correlation results, the `households` , `total_bedrooms`, `ocean_proximity_ISLAND`, `population`, `longitude` are less correlated with `median_house_value` and can be excluded from feature set
 
 - **Histogram Analysis**: Visualized the distribution of features and capped outliers for `house_median_age` and `median_house_value` to minimize their impact on the models.
-  ![image](https://github.com/user-attachments/assets/a5f71d4f-bc89-4c4d-ba91-4b060735970f)
-
-
+ ![Histogram-california](https://github.com/user-attachments/assets/3f3f5bda-a889-4665-bb34-0a5666c7b031)
+ 
 ### 3. Model Selection
 
 Three models were selected and trained on the dataset to compare their performance:
