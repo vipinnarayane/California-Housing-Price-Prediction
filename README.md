@@ -50,7 +50,7 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 ### 2. Exploratory Data Analysis (EDA)
 
 - **Correlation Analysis**: Analyzed the correlation between features and the target variable (`median_house_value`).
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/vipinnarayane/California-Housing-Price-Prediction/blob/main/Corelation-california.PNG))
   
 |Feature                     |  Value            |
 |----------------------------|-------------------|
