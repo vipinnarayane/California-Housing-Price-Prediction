@@ -37,7 +37,7 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 - **Task**: Read the "Housing.csv" file into the program and print the first few rows to understand the dataset's structure.
 - **Outcome**: Extracted input features (X) and output target (y) from the dataset.
 
-### 1. Data Preprocessing
+### 2. Data Preprocessing
 
 - **Handling Missing Values**: Imputed missing values for the `total_bedrooms` feature using the mean strategy.
    - **Task**: Identify and handle missing values in the dataset.
@@ -47,7 +47,7 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 - **Feature Scaling**: Applied standard scaling to features with different scales to bring them into a comparable range.
 - **Feature Engineering**: Created new features and applied one-hot encoding to the categorical `ocean_proximity` feature.
 
-### 2. Exploratory Data Analysis (EDA)
+### 3. Exploratory Data Analysis (EDA)
 
 - **Correlation Analysis**: Analyzed the correlation between features and the target variable (`median_house_value`).
 
@@ -61,8 +61,21 @@ The analysis revealed
 
 - **Histogram Analysis**: Visualized the distribution of features and capped outliers for `house_median_age` and `median_house_value` to minimize their impact on the models.
  ![Histogram-california](https://github.com/user-attachments/assets/3f3f5bda-a889-4665-bb34-0a5666c7b031)
- 
-### 3. Model Selection
+
+### 4.Split the Dataset
+
+- **Task**: Divide the dataset into training and testing sets.
+- **Approach**: Split the data into 80% for training and 20% for testing.
+- **Outcome**: Prepared training and testing datasets for model evaluation.
+
+
+### 5.Standardize Data
+
+- **Task**:  Standardize the features to ensure they are on a similar scale.
+- **Approach**: Applied standardization to both training and test datasets.
+- **Outcome**: Standardized data ready for model training.
+
+### 6. Model Selection
 
 Three models were selected and trained on the dataset to compare their performance:
 
@@ -87,14 +100,20 @@ Three models were selected and trained on the dataset to compare their performan
 
    *Key Insight*: Random Forest outperformed the other models, providing a better fit to the data with the lowest RMSE, making it the preferred model for this dataset.
 
-### 4. Model Evaluation
+### 7. Model Evaluation
 
 The models were evaluated using R-squared and RMSE metrics:
 
 - **R-squared**: Indicates the proportion of variance in the target variable that can be explained by the independent variables. A higher R-squared value indicates a better model fit.
 - **RMSE**: Measures the average magnitude of the prediction errors. Lower RMSE values indicate better model performance.
+- 
+### 8. Predict Housing Prices Using Median Income
+- **Task**: Predict housing prices based on the median_income feature.
+- **Approach**: Performed Linear Regression using only median_income as the independent variable and plotted the regression line.
+- **Outcome**: Visual representation of the relationship between median income and housing prices, highlighting the correlation between the two.
+  ![individual-plot](https://github.com/user-attachments/assets/1b939331-5cad-4d28-b12d-0c08ccbafab5)
 
-### 5. Inference and Conclusion
+### 9. Inference and Conclusion
 
 - **Feature Importance**: The analysis highlighted `median_income` as the most significant predictor of housing prices. Other features like `total_rooms` and `housing_median_age` also showed positive correlations with the target variable.
 - **Model Selection**: Random Forest was chosen as the final model due to its superior performance in terms of both R-squared and RMSE.
