@@ -34,8 +34,8 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 
 ## Project Workflow
 ### 1. Load the Data
--**Task**: Read the "Housing.csv" file into the program and print the first few rows to understand the dataset's structure.
--**Outcome**: Extracted input features (X) and output target (y) from the dataset.
+- **Task**: Read the "Housing.csv" file into the program and print the first few rows to understand the dataset's structure.
+- **Outcome**: Extracted input features (X) and output target (y) from the dataset.
 
 ### 1. Data Preprocessing
 
