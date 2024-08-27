@@ -51,7 +51,6 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 
 - **Correlation Analysis**: Analyzed the correlation between features and the target variable (`median_house_value`).
   
-|----------------------------|-------------------|
 |median_house_value          |         1.000000  |
 |----------------------------|-------------------|
 |median_income               |          0.688075 |
@@ -66,7 +65,7 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 |longitude                   |    -0.045967      |
 |latitude                    |    -0.144160      |
 |ocean_proximity_INLAND      |    -0.484859      |
-|----------------------------|-------------------|
+
 
   The analysis revealed that `median_income` has the strongest positive correlation (0.69) with housing prices, while `latitude` has a negative correlation.
 - **Histogram Analysis**: Visualized the distribution of features and capped outliers for `house_median_age` and `median_house_value` to minimize their impact on the models.
