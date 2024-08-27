@@ -51,33 +51,33 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 
 - **Correlation Analysis**: Analyzed the correlation between features and the target variable (`median_house_value`).
   
------------------------------------------
-|median_house_value   |         1.000000|
------------------------------------------
-|median_income       |          0.688075|
------------------------------------------
-|ocean_proximity_NEAR BAY  |    0.160284|
------------------------------------------
-|ocean_proximity_NEAR OCEAN |   0.141862|
------------------------------------------
-|total_rooms              |     0.134153|
------------------------------------------
-|housing_median_age       |     0.105623|
------------------------------------------
-|households                |    0.065843|
------------------------------------------
-|total_bedrooms            |    0.049454|
------------------------------------------
-|ocean_proximity_ISLAND   |     0.023416|
------------------------------------------
-|population                |   -0.024650|
------------------------------------------
-|longitude                |    -0.045967|
------------------------------------------
-|latitude                 |    -0.144160|
------------------------------------------
-|ocean_proximity_INLAND   |    -0.484859|
------------------------------------------
+|----------------------------|-------------------|
+|median_house_value          |         1.000000  |
+|----------------------------|-------------------|
+|median_income               |          0.688075 |
+|----------------------------|-------------------|
+|ocean_proximity_NEAR BAY    |    0.160284       |
+|----------------------------|-------------------|
+|ocean_proximity_NEAR OCEAN  |   0.141862        |
+|----------------------------|-------------------|
+|total_rooms                 |     0.134153      |
+|----------------------------|-------------------|
+|housing_median_age          |     0.105623      |
+|----------------------------|-------------------|
+|households                  |    0.065843       |
+|----------------------------|-------------------|
+|total_bedrooms              |    0.049454       |
+|----------------------------|-------------------|
+|ocean_proximity_ISLAND      |     0.023416      |
+|----------------------------|-------------------|
+|population                  |   -0.024650       |
+|----------------------------|-------------------|
+|longitude                   |    -0.045967      |
+|----------------------------|-------------------|
+|latitude                    |    -0.144160      |
+|----------------------------|-------------------|
+|ocean_proximity_INLAND      |    -0.484859      |
+|----------------------------|-------------------|
 
   The analysis revealed that `median_income` has the strongest positive correlation (0.69) with housing prices, while `latitude` has a negative correlation.
 - **Histogram Analysis**: Visualized the distribution of features and capped outliers for `house_median_age` and `median_house_value` to minimize their impact on the models.
