@@ -106,11 +106,12 @@ The models were evaluated using R-squared and RMSE metrics:
 
 - **R-squared**: Indicates the proportion of variance in the target variable that can be explained by the independent variables. A higher R-squared value indicates a better model fit.
 - **RMSE**: Measures the average magnitude of the prediction errors. Lower RMSE values indicate better model performance.
-- 
+
 ### 8. Predict Housing Prices Using Median Income
 - **Task**: Predict housing prices based on the median_income feature.
 - **Approach**: Performed Linear Regression using only median_income as the independent variable and plotted the regression line.
 - **Outcome**: Visual representation of the relationship between median income and housing prices, highlighting the correlation between the two.
+
   ![individual-plot](https://github.com/user-attachments/assets/1b939331-5cad-4d28-b12d-0c08ccbafab5)
 
 ### 9. Inference and Conclusion
@@ -134,6 +135,6 @@ The models were evaluated using R-squared and RMSE metrics:
 
 ## References
 
-- The California Housing Dataset, available through the course.
+- The California Housing Dataset (housing.csv), available through the course.
 - Documentation and articles on Machine Learning Regression models.
 
