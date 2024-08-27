@@ -118,7 +118,3 @@ The models were evaluated using R-squared and RMSE metrics:
 - The California Housing Dataset, available through the course.
 - Documentation and articles on Machine Learning Regression models.
 
----
-
-This write-up provides a comprehensive overview of your project, highlighting the key steps, findings, and insights that will be valuable to anyone reviewing your work on GitHub.
-
