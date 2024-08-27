@@ -53,6 +53,7 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
   
 |----------------------------|-------------------|
 |median_house_value          |         1.000000  |
+|----------------------------|-------------------|
 |median_income               |          0.688075 |
 |ocean_proximity_NEAR BAY    |    0.160284       |
 |ocean_proximity_NEAR OCEAN  |   0.141862        |
