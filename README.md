@@ -51,12 +51,7 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 
 - **Correlation Analysis**: Analyzed the correlation between features and the target variable (`median_house_value`).
 
-![Corelation-california](https://github.com/user-attachments/assets/a8a82af7-e143-4470-8a6d-6d99d6c92bc8)
-
-
-  
-
-
+  ![Corelation-california](https://github.com/user-attachments/assets/a8a82af7-e143-4470-8a6d-6d99d6c92bc8)
 
 The analysis revealed 
 1.	`median_income` is strongly correlated with the `median_house_value`(target attribute), people that tend to earn more money is likely to live in more expensive districts
@@ -65,6 +60,8 @@ The analysis revealed
 4.	on the basis of above correlation results, the `households` , `total_bedrooms`, `ocean_proximity_ISLAND`, `population`, `longitude` are less correlated with `median_house_value` and can be excluded from feature set
 
 - **Histogram Analysis**: Visualized the distribution of features and capped outliers for `house_median_age` and `median_house_value` to minimize their impact on the models.
+  ![image](https://github.com/user-attachments/assets/a5f71d4f-bc89-4c4d-ba91-4b060735970f)
+
 
 ### 3. Model Selection
 
