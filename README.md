@@ -45,10 +45,10 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
    - **Outcome**: Clean dataset with no missing values.
      
 - **Feature Scaling**: Applied standard scaling to features with different scales to bring them into a comparable range.
-- **Standardize Data**
-   - **Task**:  Standardize the features to ensure they are on a similar scale.
-   - **Approach**: Applied standardization to both training and test datasets.
-   - **Outcome**: Standardized data ready for model training.
+   - **Standardize Data**
+      - **Task**:  Standardize the features to ensure they are on a similar scale.
+      - **Approach**: Applied standardization to both training and test datasets.
+      - **Outcome**: Standardized data ready for model training.
 
 - **Feature Engineering**: Created new features and applied one-hot encoding to the categorical `ocean_proximity` feature.
 
