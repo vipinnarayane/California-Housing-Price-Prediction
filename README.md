@@ -105,7 +105,7 @@ The models were evaluated using R-squared and RMSE metrics:
 
 ## References
 
-- The California Housing Dataset, available through the `sklearn.datasets` API.
+- The California Housing Dataset, available through the course.
 - Documentation and articles on Machine Learning Regression models.
 
 ---
