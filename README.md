@@ -33,10 +33,13 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 - **Ocean Proximity**: Categorical variable indicating the location's proximity to the ocean.
 
 ## Project Workflow
+### 1. Load the Data
+-**Task**: Read the "Housing.csv" file into the program and print the first few rows to understand the dataset's structure.
+-**Outcome**: Extracted input features (X) and output target (y) from the dataset.
 
 ### 1. Data Preprocessing
 
-- **Handling Missing Values**: Imputed missing values for the `total_bedrooms` feature using the median strategy.
+- **Handling Missing Values**: Imputed missing values for the `total_bedrooms` feature using the mean strategy.
 - **Feature Scaling**: Applied standard scaling to features with different scales to bring them into a comparable range.
 - **Feature Engineering**: Created new features and applied one-hot encoding to the categorical `ocean_proximity` feature.
 
