@@ -7,11 +7,11 @@ This project leverages supervised machine learning techniques to predict housing
 
 The "California Housing Price Prediction" project aims to develop a machine learning model to predict median house values across various districts in California. Using data from the California Census, the project builds a predictive model that can estimate housing prices based on multiple factors, such as median income, population, and the geographical location of the district. The project also explores different regression techniques to find the most effective model for accurate predictions.
 
-##Purpose of the Document
+## Purpose of the Document
 
 This document outlines the requirements and steps involved in the California Housing Price Prediction project. It serves not only to specify the functional and non-functional requirements but also to provide a clear scope of the project. The primary goal is to develop a model capable of predicting the median housing price in any district in California based on the provided features.
 
-##Problem Statement
+## Problem Statement
 
 The project focuses on predicting the median house values in Californian districts by analyzing various features from these districts. The dataset includes information such as the population, median income, housing median age, total rooms, total bedrooms, and more. The model will learn from this data and make predictions on the median house value for any given district.
 
