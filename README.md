@@ -40,6 +40,10 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 ### 1. Data Preprocessing
 
 - **Handling Missing Values**: Imputed missing values for the `total_bedrooms` feature using the mean strategy.
+   - **Task**: Identify and handle missing values in the dataset.
+   - **Approach**: Filled missing values with the mean of the respective column to maintain data integrity.
+   - **Outcome**: Clean dataset with no missing values.
+     
 - **Feature Scaling**: Applied standard scaling to features with different scales to bring them into a comparable range.
 - **Feature Engineering**: Created new features and applied one-hot encoding to the categorical `ocean_proximity` feature.
 
