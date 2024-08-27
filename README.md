@@ -50,9 +50,9 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 ### 2. Exploratory Data Analysis (EDA)
 
 - **Correlation Analysis**: Analyzed the correlation between features and the target variable (`median_house_value`).
-  
-|median_house_value          |   1.000000        |
+|Feature                     |  Value            |
 |----------------------------|-------------------|
+|median_house_value          |   1.000000        |
 |median_income               |    0.688075       |
 |ocean_proximity_NEAR BAY    |    0.160284       |
 |ocean_proximity_NEAR OCEAN  |   0.141862        |
