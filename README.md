@@ -68,7 +68,12 @@ The dataset comprises 20,640 districts or block groups, which are the smallest g
 |ocean_proximity_INLAND      |    -0.484859      |
 
 
-  The analysis revealed that `median_income` has the strongest positive correlation (0.69) with housing prices, while `latitude` has a negative correlation.
+The analysis revealed 
+1.	'median_income' is strongly correlated with the 'median_house_value'(target attribute), people that tend to earn more money is likely to live in more expensive districts
+2.	The age and the 'total_rooms' in the house seems to have a positive correlation with the 'median_house_value', it make sense if the house is new a big tend to cost more
+3.	We have a negative correlation between 'latitude' and 'median_house_value', this means that house or districts that -ve 'latitude' are less expensive.
+4.	on the basis of above correlation results, the 'households' , 'total_bedrooms', 'ocean_proximity_ISLAND', 'population', 'longitude' are less correlated with 'median_house_value' and can be excluded from feature set
+
 - **Histogram Analysis**: Visualized the distribution of features and capped outliers for `house_median_age` and `median_house_value` to minimize their impact on the models.
 
 ### 3. Model Selection
